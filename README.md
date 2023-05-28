@@ -4,4 +4,4 @@ The goal of this project is to create a backend for WeLoveMovies, a startup. It 
 
 For running this project locally in development, use npm start. For running this project in a production environment, use npm start:prod.
 
-The link to the deployed backend server for the /movies path is: "TO BE ADDED"
+The link to the deployed backend server for the /movies path is: https://we-love-movies-backend-didt.onrender.com/movies
