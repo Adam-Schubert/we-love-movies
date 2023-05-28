@@ -1,7 +1,7 @@
 const theatersService = require("./theaters.service");
 const asyncError = require("../errors/asyncError");
 
-async function list(req, res, next) {
+async function list(req, res) {
     const { movieId } = req.params;
     if (movieId) {
         const theaters = await theatersService.listForMovies();
